@@ -1,9 +1,11 @@
 /* 🌟 Retro Game Theme */
 body {
-    background-color: black;
-    background-image: url('YOUR_BACKGROUND_IMAGE_URL'); /* Optional pixel-art background */
-    background-size: cover;
-    font-family: 'Press Start 2P', Courier, monospace; /* Arcade-style font */
+    background-image: url(https://github.com/BelovedCoachP/canvas-gamified-homepage/blob/main/background.png); /* Optional pixel-art background */
+   background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black; /* Fallback color in case image doesn't load */
+    font-family: 'Press Start 2P', Courier, monospace; /* Retro arcade font */
     text-align: center;
     color: #00FF00; /* Neon green text */
 }
