@@ -1,1 +1,114 @@
-<link rel="stylesheet" href="style.css">
+/* 🌟 Retro Game Theme */
+body {
+    background-color: black;
+    background-image: url('YOUR_BACKGROUND_IMAGE_URL'); /* Optional pixel-art background */
+    background-size: cover;
+    font-family: 'Press Start 2P', Courier, monospace; /* Arcade-style font */
+    text-align: center;
+    color: #00FF00; /* Neon green text */
+}
+
+/* 🏆 Game Title */
+h1 {
+    font-size: 32px;
+    text-shadow: 2px 2px 8px #FF00FF; /* Neon Glow */
+    padding-top: 20px;
+}
+
+/* 🕹️ Navigation Buttons */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.game-button {
+    background-color: black;
+    border: 3px solid #00FFFF; /* Neon Cyan */
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px #00FFFF;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.game-button:hover {
+    background-color: #00FFFF;
+    color: black;
+    box-shadow: 0px 0px 20px #00FFFF;
+}
+
+/* 🎚️ Difficulty Selector */
+.difficulty-container {
+    margin-top: 40px;
+}
+
+.difficulty-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 14px;
+    border: 2px solid #FF4500; /* Neon Orange */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #FF4500;
+}
+
+.difficulty-button:hover {
+    background-color: #FF4500;
+    color: black;
+}
+
+/* 🏆 XP & Badge Tracker */
+.progress-container {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #FFD700;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: black;
+    border: 2px solid #FFD700;
+    margin: 10px auto;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #FFD700; /* Gold XP Bar */
+    transition: width 0.5s;
+}
+
+/* 🤖 AI Assistant (A1-GPT) */
+.ai-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border: 2px solid #00FF00;
+    color: #00FF00;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #00FF00;
+}
+
+.ai-container:hover {
+    background: #00FF00;
+    color: black;
+}
+
